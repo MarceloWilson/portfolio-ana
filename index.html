@@ -1,0 +1,880 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#FAF3F6">
+  <meta name="author" content="Ana Carvalho">
+  <meta name="description" content="Conheça a trajetória acadêmica de Ana Carvalho, estudante de Fisioterapia na UnB e Diretora de Projetos e Financeiro da CONFIE Jr.">
+
+  <title>Ana Carvalho | Portfólio de Fisioterapia</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#conteudo">
+    Ir para o conteúdo
+  </a>
+
+  <!-- INDICADOR DE ROLAGEM -->
+  <div class="scroll-progress" aria-hidden="true">
+    <div id="scroll-progress-bar"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+
+      <a href="#inicio" class="brand" aria-label="Ana Carvalho, início">
+        <span class="brand-monogram">ac<span>.</span></span>
+
+        <span class="brand-information">
+          <strong>Ana Carvalho</strong>
+          <small>Fisioterapia · UnB</small>
+        </span>
+      </a>
+
+      <nav class="navigation" id="navigation" aria-label="Menu principal">
+        <a href="#inicio" class="nav-link is-active">Início</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#experiencia" class="nav-link">Experiência</a>
+        <a href="#interesses" class="nav-link">Interesses</a>
+        <a href="#certificados" class="nav-link">Certificados</a>
+        <a href="#capacitacoes" class="nav-link">Capacitações</a>
+        <a href="#formacao" class="nav-link">Formação</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <a href="mailto:anacarvalhocss@gmail.com" class="header-cta">
+        Vamos conversar
+        <span aria-hidden="true">↗</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-controls="navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- =====================================
+         INÍCIO — FOTO + APRESENTAÇÃO
+    ====================================== -->
+
+    <section class="hero" id="inicio">
+
+      <div class="hero-decoration hero-decoration-one" aria-hidden="true"></div>
+      <div class="hero-decoration hero-decoration-two" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+
+        <div class="hero-content">
+
+          <div class="eyebrow" data-reveal>
+            <span class="eyebrow-line"></span>
+            PORTFÓLIO ACADÊMICO & PROFISSIONAL
+          </div>
+
+          <p class="hero-pretitle" data-reveal data-delay="1">
+            Prazer, eu sou
+          </p>
+
+          <h1 class="hero-title" data-reveal data-delay="2">
+            Ana<br>
+            <em>Carvalho<span>.</span></em>
+          </h1>
+
+          <div class="hero-accent" data-reveal data-delay="3">
+            <span></span>
+            <p>Ciência, movimento e cuidado humanizado.</p>
+          </div>
+
+          <p class="hero-description" data-reveal data-delay="3">
+            Estudante de Fisioterapia na Universidade de Brasília
+            (UnB), atualmente no 4º semestre, construindo uma
+            trajetória orientada pelo conhecimento científico,
+            pela empatia e pelo desenvolvimento profissional.
+          </p>
+
+          <div class="hero-highlight" data-reveal data-delay="4">
+            <span class="highlight-symbol" aria-hidden="true">✦</span>
+
+            <div>
+              <span class="highlight-label">
+                ATUAÇÃO EM DESTAQUE
+              </span>
+
+              <strong>
+                Diretora de Projetos e Financeiro
+              </strong>
+
+              <span class="highlight-organization">
+                CONFIE Jr. — Empresa Júnior de Fisioterapia da UnB
+              </span>
+            </div>
+          </div>
+
+          <div class="hero-buttons" data-reveal data-delay="4">
+
+            <a href="#experiencia" class="button button-primary">
+              Conheça minha trajetória
+              <span aria-hidden="true">↗</span>
+            </a>
+
+            <a href="#contato" class="button button-outline">
+              Entre em contato
+              <span aria-hidden="true">↗</span>
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- ESPAÇO PARA A FOTO DA ANA -->
+        <div class="hero-image-column" data-reveal data-delay="2">
+
+          <div class="portrait-composition">
+
+            <div class="portrait-outline" aria-hidden="true"></div>
+
+            <figure class="portrait-frame" id="portrait-frame">
+
+
+             
+<img
+  src="./images/anafoto.jpeg"
+  alt="Fotografia de Ana Carvalho"
+  class="portrait-image"
+  id="hero-photo"
+  fetchpriority="high"
+  onload="this.style.opacity='1'"
+>
+
+
+              <div class="portrait-placeholder" id="photo-placeholder">
+                <div class="placeholder-ornament">
+                
+                </div>
+
+                <small>ANA CARVALHO</small>
+              </div>
+
+              <figcaption class="portrait-caption">
+                <span>ANA CARVALHO</span>
+                <span>FISIOTERAPIA · UNB</span>
+              </figcaption>
+
+            </figure>
+
+            <div class="portrait-badge">
+              <span class="badge-star" aria-hidden="true">✦</span>
+              <strong>UnB</strong>
+              <small>4º semestre</small>
+            </div>
+
+            <div class="portrait-side-text" aria-hidden="true">
+              TRAJETÓRIA · PROPÓSITO · EVOLUÇÃO
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container hero-footer">
+        <span>UNIVERSIDADE DE BRASÍLIA</span>
+
+        <a href="#sobre">
+          DESLIZE PARA EXPLORAR
+          <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- FAIXA EDITORIAL -->
+    <div class="manifesto-strip" aria-label="Ciência, movimento, empatia e cuidado">
+      <div class="container manifesto-content">
+        <span>Ciência</span>
+        <span class="manifesto-star">✦</span>
+        <span>Movimento</span>
+        <span class="manifesto-star">✦</span>
+        <span>Empatia</span>
+        <span class="manifesto-star">✦</span>
+        <span>Cuidado</span>
+      </div>
+    </div>
+
+    <!-- =====================================
+         SOBRE MIM
+    ====================================== -->
+
+    <section class="section about-section" id="sobre">
+
+      <div class="container about-layout">
+
+        <div class="section-heading" data-reveal>
+          <p class="section-label">
+            <span>01</span> / SOBRE MIM
+          </p>
+
+          <h2 class="section-title">
+            Muito além<br>
+            de uma <em>profissão.</em>
+          </h2>
+
+          <div class="section-ornament" aria-hidden="true">✦</div>
+        </div>
+
+        <div class="about-text">
+
+          <p class="about-lead" data-reveal>
+            Acredito que o cuidado começa com o conhecimento,
+            se fortalece com a empatia e ganha sentido
+            na transformação da qualidade de vida.
+          </p>
+
+          <p data-reveal>
+            Sou estudante de Fisioterapia na Universidade de
+            Brasília (UnB), atualmente no 4º semestre, e estou
+            em busca de oportunidades que contribuam para
+            meu crescimento acadêmico e profissional.
+          </p>
+
+          <p data-reveal>
+            Tenho grande interesse na reabilitação física,
+            na prevenção de lesões e na promoção da saúde.
+            Valorizo a comunicação, o trabalho em equipe
+            e a importância de um cuidado humanizado.
+          </p>
+
+          <p data-reveal>
+            Busco ampliar meus conhecimentos e desenvolver
+            competências técnicas e interpessoais, aproximando
+            a formação acadêmica da prática e da atuação
+            baseada em evidências científicas.
+          </p>
+
+          <div class="about-signature" data-reveal>
+            <span class="signature-symbol">ac.</span>
+
+            <div>
+              <strong>Ana Carvalho</strong>
+              <small>Estudante de Fisioterapia · UnB</small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- =====================================
+         EXPERIÊNCIA / CONFIE JR
+    ====================================== -->
+
+    <section class="section experience-section" id="experiencia">
+
+      <div class="container">
+
+        <div class="section-header" data-reveal>
+
+          <div>
+            <p class="section-label">
+              <span>02</span> / EXPERIÊNCIA & LIDERANÇA
+            </p>
+
+            <h2 class="section-title">
+              Aprendendo a<br>
+              <em>liderar e transformar.</em>
+            </h2>
+          </div>
+
+          <p class="section-summary">
+            Uma experiência de liderança que contribui
+            para meu desenvolvimento acadêmico e profissional.
+          </p>
+
+        </div>
+
+        <article class="confie-feature" data-reveal>
+
+          <div class="confie-topline">
+            <span>EXPERIÊNCIA EM DESTAQUE</span>
+            <span>UNIVERSIDADE DE BRASÍLIA</span>
+          </div>
+
+          <div class="confie-layout">
+
+            <div class="confie-identity">
+              <span class="confie-caption">EMPRESA JÚNIOR DE FISIOTERAPIA</span>
+
+              <h3>CONFIE <em>Jr.</em></h3>
+
+              <p>
+                Empresa Júnior de Fisioterapia
+                da Universidade de Brasília (UnB).
+              </p>
+
+              <div class="confie-decoration" aria-hidden="true">✳</div>
+            </div>
+
+            <div class="confie-details">
+
+              <div class="role-category">
+                <span class="role-dot"></span>
+                CARGO DE DIRETORIA
+              </div>
+
+              <h4>
+                Diretora de<br>
+                <em>Projetos e Financeiro.</em>
+              </h4>
+
+              <p>
+                Atualmente, atuo como Diretora de Projetos e
+                Financeiro da CONFIE Jr., onde tenho a
+                oportunidade de desenvolver competências
+                relacionadas à liderança, à organização,
+                à gestão e ao trabalho em equipe.
+              </p>
+
+              <p>
+                Essa experiência amplia minha visão
+                profissional e contribui para minha formação,
+                conectando aprendizado, responsabilidade
+                e desenvolvimento pessoal.
+              </p>
+
+              <div class="competency-list">
+                <span>Liderança</span>
+                <span>Gestão</span>
+                <span>Organização</span>
+                <span>Trabalho em equipe</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="confie-bottomline">
+            <span>ANA CARVALHO · DIRETORIA</span>
+            <span>FISIOTERAPIA · UNB</span>
+          </div>
+
+        </article>
+      </div>
+
+    </section>
+
+    <!-- =====================================
+         INTERESSES PROFISSIONAIS
+    ====================================== -->
+
+    <section class="section interests-section" id="interesses">
+
+      <div class="container interests-layout">
+
+        <div class="section-heading" data-reveal>
+          <p class="section-label">
+            <span>03</span> / INTERESSES PROFISSIONAIS
+          </p>
+
+          <h2 class="section-title">
+            O que move<br>
+            <em>minha curiosidade.</em>
+          </h2>
+
+          <p class="section-description">
+            Áreas que despertam meu interesse e
+            nas quais desejo aprofundar meus conhecimentos
+            ao longo da formação.
+          </p>
+        </div>
+
+        <div class="interest-container" data-reveal>
+
+          <div class="interest-tabs" role="tablist" aria-label="Áreas de interesse">
+
+            <button
+              class="interest-tab is-active"
+              id="tab-reabilitacao"
+              type="button"
+              role="tab"
+              aria-controls="panel-reabilitacao"
+              aria-selected="true"
+              tabindex="0"
+            >
+              <span class="tab-number">01</span>
+              <span>Reabilitação física</span>
+              <span class="tab-arrow" aria-hidden="true">↗</span>
+            </button>
+
+            <button
+              class="interest-tab"
+              id="tab-prevencao"
+              type="button"
+              role="tab"
+              aria-controls="panel-prevencao"
+              aria-selected="false"
+              tabindex="-1"
+            >
+              <span class="tab-number">02</span>
+              <span>Prevenção de lesões</span>
+              <span class="tab-arrow" aria-hidden="true">↗</span>
+            </button>
+
+            <button
+              class="interest-tab"
+              id="tab-promocao"
+              type="button"
+              role="tab"
+              aria-controls="panel-promocao"
+              aria-selected="false"
+              tabindex="-1"
+            >
+              <span class="tab-number">03</span>
+              <span>Promoção da saúde</span>
+              <span class="tab-arrow" aria-hidden="true">↗</span>
+            </button>
+
+          </div>
+
+          <div class="interest-panel-wrapper">
+
+            <div
+              class="interest-panel"
+              id="panel-reabilitacao"
+              role="tabpanel"
+              aria-labelledby="tab-reabilitacao"
+              tabindex="0"
+            >
+              <span class="panel-eyebrow">ÁREA DE INTERESSE / 01</span>
+              <h3>Reabilitação física</h3>
+
+              <p>
+                Interesse em compreender os processos de
+                recuperação funcional, o movimento humano
+                e a importância da reabilitação para
+                a autonomia e a qualidade de vida.
+              </p>
+            </div>
+
+            <div
+              class="interest-panel"
+              id="panel-prevencao"
+              role="tabpanel"
+              aria-labelledby="tab-prevencao"
+              tabindex="0"
+              hidden
+            >
+              <span class="panel-eyebrow">ÁREA DE INTERESSE / 02</span>
+              <h3>Prevenção de lesões</h3>
+
+              <p>
+                Interesse em estudar estratégias de prevenção,
+                funcionalidade e movimento, compreendendo
+                a importância da orientação e da educação em saúde.
+              </p>
+            </div>
+
+            <div
+              class="interest-panel"
+              id="panel-promocao"
+              role="tabpanel"
+              aria-labelledby="tab-promocao"
+              tabindex="0"
+              hidden
+            >
+              <span class="panel-eyebrow">ÁREA DE INTERESSE / 03</span>
+              <h3>Promoção da saúde</h3>
+
+              <p>
+                Interesse em ações que contribuam para
+                a promoção da saúde, do bem-estar e
+                da qualidade de vida das pessoas.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =====================================
+         CERTIFICAÇÕES
+    ====================================== -->
+
+    <section class="section certificates-section" id="certificados">
+
+      <div class="container">
+
+        <div class="section-header" data-reveal>
+          <div>
+            <p class="section-label">
+              <span>04</span> / CERTIFICAÇÕES
+            </p>
+
+            <h2 class="section-title">
+              Conhecimento que<br>
+              <em>se transforma em evolução.</em>
+            </h2>
+          </div>
+
+          <p class="section-summary">
+            Certificados e reconhecimentos que
+            registram experiências da minha formação.
+          </p>
+        </div>
+
+        <div
+          class="filter-group"
+          id="certificate-filters"
+          aria-label="Filtros de certificados"
+        ></div>
+
+        <div
+          class="certificates-grid"
+          id="certifications-grid"
+          aria-live="polite"
+        >
+          <div class="empty-state">
+            <span class="empty-state-icon" aria-hidden="true">✳</span>
+            <h3>Certificações acadêmicas</h3>
+            <p>Em breve, meus certificados estarão disponíveis aqui.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =====================================
+         CAPACITAÇÕES
+    ====================================== -->
+
+    <section class="section training-section" id="capacitacoes">
+
+      <div class="container">
+
+        <div class="section-header" data-reveal>
+          <div>
+            <p class="section-label">
+              <span>05</span> / CAPACITAÇÕES
+            </p>
+
+            <h2 class="section-title">
+              Evoluir é estar<br>
+              <em>sempre aprendendo.</em>
+            </h2>
+          </div>
+
+          <p class="section-summary">
+            Cursos, workshops, congressos e experiências
+            que complementam minha trajetória acadêmica.
+          </p>
+        </div>
+
+        <div
+          class="training-list"
+          id="training-grid"
+          aria-live="polite"
+        >
+          <div class="empty-state">
+            <span class="empty-state-icon" aria-hidden="true">✳</span>
+            <h3>Formação complementar</h3>
+            <p>Minhas capacitações serão apresentadas neste espaço.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =====================================
+         FORMAÇÃO E DISCIPLINAS
+    ====================================== -->
+
+    <section class="section education-section" id="formacao">
+
+      <div class="container">
+
+        <div class="section-header" data-reveal>
+          <div>
+            <p class="section-label">
+              <span>06</span> / FORMAÇÃO ACADÊMICA
+            </p>
+
+            <h2 class="section-title">
+              Uma trajetória de<br>
+              <em>dedicação e descobertas.</em>
+            </h2>
+          </div>
+        </div>
+
+        <article class="education-feature" data-reveal>
+
+          <div class="education-symbol">UnB</div>
+
+          <div class="education-details">
+            <span class="education-eyebrow">
+              GRADUAÇÃO EM ANDAMENTO
+            </span>
+
+            <h3>Fisioterapia</h3>
+            <p>Universidade de Brasília — UnB</p>
+          </div>
+
+          <div class="education-semester">
+            <strong>4º</strong>
+            <span>SEMESTRE</span>
+          </div>
+
+        </article>
+
+        <div class="subjects-header" data-reveal>
+          <div>
+            <p class="section-label">DISCIPLINAS CURSADAS</p>
+            <h3>Minha jornada de aprendizado.</h3>
+          </div>
+
+          <p>
+            Um registro dos conhecimentos adquiridos
+            ao longo da graduação.
+          </p>
+        </div>
+
+        <div
+          class="filter-group"
+          id="subject-filters"
+          aria-label="Filtros de disciplinas"
+        ></div>
+
+        <div
+          class="subjects-grid"
+          id="subjects-grid"
+          aria-live="polite"
+        >
+          <div class="empty-state">
+            <span class="empty-state-icon" aria-hidden="true">✳</span>
+            <h3>Disciplinas acadêmicas</h3>
+            <p>As disciplinas cursadas serão adicionadas aqui.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =====================================
+         CONTATO
+    ====================================== -->
+
+    <section class="section contact-section" id="contato">
+
+      <div class="container">
+
+        <div class="contact-card" data-reveal>
+
+          <div class="contact-decoration" aria-hidden="true"></div>
+
+          <div class="contact-content">
+            <p class="section-label">
+              <span>07</span> / VAMOS CONVERSAR?
+            </p>
+
+            <h2>
+              Grandes caminhos<br>
+              começam com <em>conexões.</em>
+            </h2>
+
+            <p>
+              Estou aberta a oportunidades de aprendizado,
+              desenvolvimento profissional e experiências
+              acadêmicas que contribuam para minha formação
+              na área da Fisioterapia.
+            </p>
+
+            <div class="contact-buttons">
+
+              <a
+                class="button button-contact"
+                href="mailto:anacarvalhocss@gmail.com"
+              >
+                Enviar um e-mail
+                <span aria-hidden="true">↗</span>
+              </a>
+
+              <a
+                class="contact-link"
+                href="https://wa.me/5561992770788"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Conversar pelo WhatsApp
+                <span aria-hidden="true">↗</span>
+              </a>
+
+            </div>
+          </div>
+
+          <div class="contact-bottom">
+            <span>ANA CARVALHO</span>
+            <span>FISIOTERAPIA · UNB</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================
+       RODAPÉ
+  ====================================== -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-layout">
+
+      <div class="footer-brand">
+        <a href="#inicio" class="footer-monogram">
+          ac<span>.</span>
+        </a>
+
+        <h2>Ana Carvalho</h2>
+
+        <p>
+          Estudante de Fisioterapia na Universidade de Brasília.
+          Diretora de Projetos e Financeiro da CONFIE Jr.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h3>CONTATO</h3>
+
+        <a href="mailto:anacarvalhocss@gmail.com">
+          anacarvalhocss@gmail.com
+        </a>
+
+        <a
+          href="https://wa.me/5561992770788"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          (61) 99277-0788 ↗
+        </a>
+
+        <button class="copy-email" id="copy-email" type="button">
+          Copiar endereço de e-mail
+        </button>
+
+        <span class="copy-feedback" id="copy-feedback" role="status"></span>
+      </div>
+
+      <div class="footer-column">
+        <h3>REDES & NAVEGAÇÃO</h3>
+
+        <a
+          href="https://www.linkedin.com/in/ana-carvalho-5034b9379/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn ↗
+        </a>
+
+        <a href="#inicio">
+          Voltar ao início ↑
+        </a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <span>
+        © <span id="current-year">2026</span>
+        Ana Carvalho. Todos os direitos reservados.
+      </span>
+
+      <span>
+        Ciência, movimento e cuidado.
+      </span>
+    </div>
+
+  </footer>
+
+  <!-- =====================================
+       MODAL PARA VISUALIZAR CERTIFICADOS
+  ====================================== -->
+
+  <dialog
+    class="certificate-modal"
+    id="certificate-modal"
+    aria-labelledby="modal-title"
+  >
+
+    <div class="modal-container">
+
+      <div class="modal-header">
+
+        <div>
+          <span class="modal-label">DOCUMENTO ACADÊMICO</span>
+          <h2 id="modal-title">Certificado</h2>
+          <p id="modal-description"></p>
+        </div>
+
+        <button
+          type="button"
+          class="modal-close"
+          id="modal-close"
+          aria-label="Fechar visualização"
+        >
+          ×
+        </button>
+
+      </div>
+
+      <div class="modal-preview" id="modal-media"></div>
+
+      <div class="modal-bottom">
+        <span>ANA CARVALHO · PORTFÓLIO</span>
+
+        <a
+          href="#"
+          id="modal-file-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Abrir arquivo original ↗
+        </a>
+      </div>
+
+    </div>
+
+  </dialog>
+
+</body>
+</html>
